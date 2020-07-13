@@ -1,0 +1,122 @@
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+    background-color: #333333;
+}
+
+/* Start Navbar */
+.navbar{
+    background-color: #003f6e !important;
+    box-shadow: 0px 2px 2px -2px rgba(0,0,0, 0.2) !important;
+}
+
+#logo-name{
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    font-weight: 400;
+    top: 5px;
+  
+}
+
+.container{
+    max-width: 1440px;
+}
+
+.container-sm {
+    max-width: 1080px;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #ffffff;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+   
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+   
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+   
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+  .nav-link{
+      color: #ffffff !important;
+      font-weight: 200;
+  }
+
+  .nav-link:hover{
+      color: #F7C351 !important;
+  }
+
+  /* End Navbar */
+
+  .pdf{
+      display: block;
+      width: 100%;
+      height: 1000px;
+      max-width: 1080px;
+      margin: auto;
+      border: none;
+      border-radius: 5px;
+      background: #333333;
+  }
+
+  .container-sm h3{
+    color: #ffffff;
+  }
+
+  .blog-grid{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 !important;
+  }
+
+  .blog-entry{
+    text-align: center;
+  }
+
+  .blog-img img{
+    border-radius: 5px;
+    max-width: 100%;
+  }
+  
